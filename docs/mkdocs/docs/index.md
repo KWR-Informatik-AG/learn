@@ -1,17 +1,39 @@
-# Welcome to MkDocs
+# KWR Informatik AG Education
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+### Prerequesites
 
-## Commands
+- A basic understanding of computers
+- Logical thinking abilities
+- A computer or VM with administrative permissions
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+### Git Installation and Setup
 
-## Project layout
+Install [Git](https://git-scm.com/download/) and [GitHub Desktop](https://desktop.github.com/)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+### NodeJS
+
+###### Installation
+
+[NodeJS Website](https://nodejs.org/)
+Download "LTS 20.XX.XX" Installer
+Open Installation Manager and Finish Steps
+
+After installing, run:
+- `node -v` result should be `20.XX.XX`
+- `npm -v` result should be `10.XX.XX`
+To check the version
+
+###### Explanation
+
+Nodejs is the Javascript Runtime. It also comes with the node package manager (npm), which can install dependencies and more.
+Install dependencies: `npm install` **OR** `npm i`
+
+### Svelte
+
+###### Learning Svelte
+
+[Official Svelte Tutorial](https://learn.svelte.dev/tutorial/welcome-to-svelte)
+
+###### Inititialize Svelte
+
+[Official Svelte Docs](https://svelte.dev/docs/introduction)
