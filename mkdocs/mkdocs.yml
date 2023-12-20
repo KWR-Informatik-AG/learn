@@ -2,13 +2,28 @@ site_name: KWR Informatik AG Education
 theme:
   name: material
   features:
-    - navigation.tabs
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
     - navigation.sections
     - navigation.top
+    - navigation.tabs
     - toc.integrate
+    - toc.follow
   language: en
 nav:
-  - Willkommen: index.md
-  - Nodejs:
-    - "Installation": nodejs/index.md
-    - "Basic Tutorial": nodejs/basic-tutorial.md
+  - Welcome: index.md
+  - Collaboration:
+    - "Home": collaboration/index.md
+  - Frontend:
+    - "Home": frontend/index.md
+    - Nodejs:
+      - Getting Started:
+        - "Quick Guide": frontend/nodejs/getting-started/quick-guide.md
+        - "Installation": frontend/nodejs/getting-started/installation.md
+      - Tutorial:
+        - "Fundamentals": frontend/nodejs/tutorial/basics.md
+    - Svelte:
+      - "Getting Started": frontend/svelte/index.md
+    
