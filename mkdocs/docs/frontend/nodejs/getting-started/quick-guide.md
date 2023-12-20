@@ -1,6 +1,6 @@
 # Quick Guide
 
-### What is Nodejs (WIP)
+### What is Nodejs
 
 Nodejs is the Javascript Runtime. It also comes with the node package manager (npm), which can install dependencies and more.
 

@@ -1,1 +1,0 @@
-# Collaboration - Working with Git using GitHub

@@ -1,4 +1,6 @@
-# KWR Informatik AG Education
+# KWR Informatik AG Documentation
+
+This is the
 
 ### Prerequesites
 

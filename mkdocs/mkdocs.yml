@@ -1,4 +1,4 @@
-site_name: KWR Informatik AG Education
+site_name: KWR Informatik AG Documentation
 theme:
   name: material
   features:
@@ -14,9 +14,13 @@ theme:
   language: en
 nav:
   - Welcome: index.md
-  - Collaboration:
-    - "Home": collaboration/index.md
-  - Frontend:
+
+  - Devops:
+    - "Home": devops/index.md
+    - Git:
+      - "What is Git": devops/git/index.md
+    
+  - Frontend (WIP):
     - "Home": frontend/index.md
     - Nodejs:
       - Getting Started:
@@ -25,5 +29,6 @@ nav:
       - Tutorial:
         - "Fundamentals": frontend/nodejs/tutorial/basics.md
     - Svelte:
-      - "Getting Started": frontend/svelte/index.md
-    
+      - Getting Started:
+        - "Getting Started": frontend/svelte/getting-started/introduction.md
+        - "Getting Started": frontend/svelte/getting-started/creating-a-first-project.md
