@@ -1,9 +1,0 @@
-site_name: KWR Informatik AG Education
-theme:
-  name: material
-  features:
-    - navigation.tabs
-    - navigation.sections
-    - navigation.top
-    - toc.integrate # Hides TOC
-  language: en

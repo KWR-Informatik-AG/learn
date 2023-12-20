@@ -1,0 +1,14 @@
+site_name: KWR Informatik AG Education
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+  language: en
+nav:
+  - Willkommen: index.md
+  - Nodejs:
+    - "Installation": nodejs/index.md
+    - "Basic Tutorial": nodejs/basic-tutorial.md
