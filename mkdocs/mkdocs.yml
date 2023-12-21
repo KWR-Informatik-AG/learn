@@ -30,5 +30,4 @@ nav:
         - "Fundamentals": frontend/nodejs/tutorial/basics.md
     - Svelte:
       - Getting Started:
-        - "Getting Started": frontend/svelte/getting-started/introduction.md
-        - "Getting Started": frontend/svelte/getting-started/creating-a-first-project.md
+        - "Introduction": frontend/svelte/getting-started/introduction.md
