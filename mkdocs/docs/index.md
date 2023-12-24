@@ -1,7 +1,5 @@
 # KWR Informatik AG Documentation
 
-This is the
-
 ### Prerequesites
 
 - A basic understanding of computers
