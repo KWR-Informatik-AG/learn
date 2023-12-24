@@ -23,21 +23,24 @@ nav:
   
   - Languages (WIP):
     - "Home": languages/index.md
-    - HTML (Coming Soon):
-      - "Introduction": languages/html/index.md
-    - CSS (Coming Soon):
-      - "Introduction": languages/css/index.md
-    - Javascript (Coming Soon):
-      - "Introduction": languages/javascript/index.md
-    - Python (Coming Soon):
-      - "Introduction": languages/javascript/index.md
-    #- C:
+    - Web:
+      - HTML:
+        - "Introduction": languages/html/index.md
+      - CSS:
+        - "Introduction": languages/css/index.md
+      - Javascript:
+        - "Introduction": languages/javascript/index.md
+      - Typescript:
+        - "Introduction": languages/typescript/index.md
+    #- Python: # Free-For-All to extend on
+    #  - "Introduction": languages/python/index.md
+    #- C: # Free-For-All to extend on
     #  - "Introduction": languages/javascript/index.md
-    #- C#:
+    #- C#: # Free-For-All to extend on
     #  - "Introduction": languages/javascript/index.md
-    #- C++:
+    #- C++: # Free-For-All to extend on
     #  - "Introduction": languages/javascript/index.md
-    #- Java:
+    #- Java: # Free-For-All to extend on
     #  - "Introduction": languages/java/index.md
 
 
