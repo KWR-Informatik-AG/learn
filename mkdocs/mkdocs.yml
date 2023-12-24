@@ -2,24 +2,45 @@ site_name: KWR Informatik AG Documentation
 theme:
   name: material
   features:
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - navigation.tracking
     - navigation.sections
-    - navigation.top
-    - navigation.tabs
-    - toc.integrate
-    - toc.follow
   language: en
 nav:
   - Welcome: index.md
 
-  - Devops:
+  - Devops (WIP):
     - "Home": devops/index.md
     - Git:
       - "What is Git": devops/git/index.md
-    
+  
+  - Languages (WIP):
+    - "Home": languages/index.md
+    - HTML (Coming Soon):
+      - "Introduction": languages/html/index.md
+    - CSS (Coming Soon):
+      - "Introduction": languages/css/index.md
+    - Javascript (Coming Soon):
+      - "Introduction": languages/javascript/index.md
+    - Python (Coming Soon):
+      - "Introduction": languages/javascript/index.md
+    #- C:
+    #  - "Introduction": languages/javascript/index.md
+    #- C#:
+    #  - "Introduction": languages/javascript/index.md
+    #- C++:
+    #  - "Introduction": languages/javascript/index.md
+    #- Java:
+    #  - "Introduction": languages/java/index.md
+
+
   - Frontend (WIP):
     - "Home": frontend/index.md
     - Nodejs:
