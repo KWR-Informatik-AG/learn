@@ -2,7 +2,6 @@
 
 ### Prerequesites
 
-- A basic understanding of computers
 - A computer or VM with administrative permissions
 
 ### Git Installation and Setup
