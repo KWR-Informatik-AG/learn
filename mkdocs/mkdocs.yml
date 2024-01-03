@@ -12,46 +12,46 @@ theme:
     - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.sections
-  language: en
+  language: de
 nav:
-  - Welcome: index.md
+  - Willkommen: index.md
 
   - Devops (WIP):
-    - "Home": devops/index.md
+    - "Start": devops/index.md
     - Git:
-      - "What is Git": devops/git/index.md
+      - "Was ist Git": devops/git/index.md
   
-  - Languages (WIP):
-    - "Home": languages/index.md
+  - Programmiersprachen (WIP):
+    - "Start": languages/index.md
     - Web:
       - HTML:
-        - "Introduction": languages/html/index.md
+        - "Einführung": languages/html/index.md
       - CSS:
-        - "Introduction": languages/css/index.md
+        - "Einführung": languages/css/index.md
       - Javascript:
-        - "Introduction": languages/javascript/index.md
+        - "Einführung": languages/javascript/index.md
       - Typescript:
-        - "Introduction": languages/typescript/index.md
-    #- Python: # Free-For-All to extend on
-    #  - "Introduction": languages/python/index.md
-    #- C: # Free-For-All to extend on
-    #  - "Introduction": languages/javascript/index.md
-    #- C#: # Free-For-All to extend on
-    #  - "Introduction": languages/javascript/index.md
-    #- C++: # Free-For-All to extend on
-    #  - "Introduction": languages/javascript/index.md
-    #- Java: # Free-For-All to extend on
-    #  - "Introduction": languages/java/index.md
+        - "Einführung": languages/typescript/index.md
+    #  - Python: # Free-For-All to extend on
+    #    - "Einführung": languages/python/index.md
+    #  - C: # Free-For-All to extend on
+    #    - "Einführung": languages/javascript/index.md
+    #  - C#: # Free-For-All to extend on
+    #    - "Einführung": languages/javascript/index.md
+    #  - C++: # Free-For-All to extend on
+    #    - "Einführung": languages/javascript/index.md
+    #  - Java: # Free-For-All to extend on
+    #    - "Einführung": languages/java/index.md
 
 
   - Frontend (WIP):
-    - "Home": frontend/index.md
-    - Nodejs:
-      - Getting Started:
-        - "Quick Guide": frontend/nodejs/getting-started/quick-guide.md
+    - "Start": frontend/index.md
+    - NodeJS:
+      - Erste Schritte:
+        - "Schnellanleitung": frontend/nodejs/getting-started/quick-guide.md
         - "Installation": frontend/nodejs/getting-started/installation.md
       - Tutorial:
-        - "Fundamentals": frontend/nodejs/tutorial/basics.md
+        - "Grundlagen": frontend/nodejs/tutorial/basics.md
     - Svelte:
       - Getting Started:
         - "Introduction": frontend/svelte/getting-started/introduction.md
