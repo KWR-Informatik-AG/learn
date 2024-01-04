@@ -1,3 +1,3 @@
-# Education and Integration Documentation
+# Dokumentation
 
-Hosted using Mkdocs-Material.
+Gehosted mit **Mkdocs-Material**.

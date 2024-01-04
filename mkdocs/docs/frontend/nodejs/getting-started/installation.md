@@ -1,18 +1,18 @@
 # Installation
 
-### Install
+### Herunterladen
 
-1. Head to the NodeJS Website: [https://nodejs.org/](https://nodejs.org/)
-2. Download the latest "LTS 20.XX.XX" Installer.
-3. Open Installation Manager and Finish Steps
+1. Gehe zur NodeJS-Website: [https://nodejs.org/](https://nodejs.org/)
+2. Lade den neuesten "LTS 20.XX.XX" Installer herunter.
+3. Öffne den Installationsmanager und befolge die Schritte.
 
-### Verify
+### Überprüfung
 
-After installing, run:
+Nach der Installation führe folgenden Befehl aus:
 
 ```sh
 `node -v`
 `npm -v`
 ```
 
-To check the versions and if the installation was successful.
+Um die Versionen zu überprüfen und festzustellen, ob die Installation erfolgreich war.

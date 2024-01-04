@@ -1,9 +1,11 @@
-# KWR Informatik AG Documentation
+# KWR Informatik AG Dokumentation
 
-### Prerequesites
+### Voraussetzungen
 
-- A computer or VM with administrative permissions
+- Ein Computer oder eine virtuelle Maschine mit Administratorrechten
 
-### Git Installation and Setup
+### Git Installation und Einrichtung
 
-Install [Git](https://git-scm.com/download/) and [GitHub Desktop](https://desktop.github.com/)
+Installiere [Git](https://git-scm.com/download/) und [GitHub Desktop](https://desktop.github.com/)
+
+

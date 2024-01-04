@@ -1,12 +1,12 @@
-# Quick Guide
+# Schnellstart-Anleitung
 
-### What is Nodejs
+### Was ist Node.js
 
-Nodejs is the Javascript Runtime. It also comes with the node package manager (npm), which can install dependencies and more.
+Node.js ist die JavaScript-Laufzeitumgebung. Es wird auch der Node Package Manager (npm) mitgeliefert, der Abhängigkeiten installieren und mehr kann.
 
-### Usage
+### Verwendung
 
-To install dependencies from the `package.json` located in the current working directory, run:
+Um Abhängigkeiten aus der `package.json` im aktuellen Arbeitsverzeichnis zu installieren, führe Folgendes aus:
 
 ```sh
 npm install
@@ -14,7 +14,7 @@ npm install
 npm i
 ```
 
-To install additional dependencies in the current folder, you can run:
+Um zusätzliche Abhängigkeiten im aktuellen Verzeichnis zu installieren, kannst du Folgendes ausführen:
 
 ```sh
 npm install

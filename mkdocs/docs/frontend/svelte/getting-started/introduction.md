@@ -1,9 +1,9 @@
 # Svelte
 
-### Learning Svelte
+### Svelte lernen
 
-Interactive Svelte Tutorial: [https://learn.svelte.dev/tutorial/welcome-to-svelte](https://learn.svelte.dev/tutorial/welcome-to-svelte)
+Interaktives Svelte-Tutorial: [https://learn.svelte.dev/tutorial/welcome-to-svelte](https://learn.svelte.dev/tutorial/welcome-to-svelte)
 
-### Inititialize Svelte
+### Svelte Projekt starten
 
-Official Svelte Docs: [https://svelte.dev/docs/introduction](https://svelte.dev/docs/introduction)
+Offizielle Svelte-Dokumentation: [https://svelte.dev/docs/introduction](https://svelte.dev/docs/introduction)
