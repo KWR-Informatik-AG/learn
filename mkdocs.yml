@@ -1,0 +1,118 @@
+site_name: Lernwebsite (In Arbeit)
+site_author: Johann Friedrich Heuer
+site_description: Dokumentation für die Informatik AG am Kaiser-Wilhelm- und Ratsgymnasium Hannover 
+site_url: https://kwr-informatik-ag.github.io/
+
+# Repository
+repo_name: GitHub Repository
+repo_url: https://github.com/kwr-informatik-ag/documentation
+
+# Copyright
+# copyright: Copyright &copy; 2024 KWR Hannover
+
+theme:
+  name: material
+  features:
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+    #- toc.integrate
+    - navigation.top
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.sections
+    - search.suggest
+  language: de
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  favicon: assets/favicon.png
+  logo: assets/images/logo-full.png
+
+extra:
+  homepage: https://kwr-informatik-ag.github.io/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kwr-informatik-ag/
+
+plugins:
+  - social
+  - search
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Startseite: index.md
+
+  - Devops:
+    - "Start": devops/index.md
+    - Git:
+      - "Was ist Git": devops/git/index.md
+  
+  - Sprachen:
+    - "Start": sprachen/index.md
+    - HTML:
+      - "Grundlagen": sprachen/html/index.md
+    - CSS:
+      - "Grundlagen": sprachen/css/index.md
+    - Javascript:
+      - "Grundlagen": sprachen/javascript/index.md
+    - Typescript:
+      - "Grundlagen": sprachen/typescript/index.md
+    #- Python: # Free-For-All to extend on
+    #  - "Grundlagen": sprachen/python/index.md
+    #- C: # Free-For-All to extend on
+    #  - "Grundlagen": sprachen/javascript/index.md
+    #- C#: # Free-For-All to extend on
+    #  - "Grundlagen": sprachen/javascript/index.md
+    #- C++: # Free-For-All to extend on
+    #  - "Grundlagen": sprachen/javascript/index.md
+    #- Java: # Free-For-All to extend on
+    #  - "Grundlagen": sprachen/java/index.md
+
+
+  - Frontend:
+    - "Start": frontend/index.md
+    - NodeJS:
+      - Erste Schritte:
+        - "Schnellanleitung": frontend/nodejs/getting-started/quick-guide.md
+        - "Installation": frontend/nodejs/getting-started/installation.md
+      - Tutorial:
+        - "Grundlagen": frontend/nodejs/tutorial/grundlagen.md
+    - Svelte:
+      - Erste Schritte:
+        - "Grundlagen": frontend/svelte/getting-started/introduction.md
