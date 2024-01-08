@@ -74,12 +74,12 @@ extra:
 
     # German language
     - name: Deutsch
-      link: /de/
+      link: de/
       lang: de
 
     # English language
     - name: English
-      link: /en/
+      link: en/
       lang: en
 
 plugins:
