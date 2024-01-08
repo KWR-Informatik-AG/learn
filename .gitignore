@@ -2,7 +2,7 @@
 .vscode
 
 # Build directories
-site
+generated
 
 # Caches and temporary files
 .cache
