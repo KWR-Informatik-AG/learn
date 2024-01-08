@@ -1,0 +1,12 @@
+FROM squidfunk/mkdocs-material AS build
+WORKDIR /app
+COPY config ./config
+COPY docs ./docs
+COPY overrides ./overrides
+RUN mkdocs build -f ./config/de/mkdocs.yml
+RUN mkdocs build -f ./config/en/mkdocs.yml
+
+FROM nginx:alpine
+WORKDIR /usr/share/nginx/html
+RUN rm -rf ./*
+COPY --from=build /app/generated .

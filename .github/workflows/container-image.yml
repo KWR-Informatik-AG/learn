@@ -1,0 +1,31 @@
+name: Build and Push Container-Image
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Docker Buildx
+        uses: docker/setup-buildx-action@v3
+      
+      - name: Login into the Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Build and push Docker Image
+        uses: docker/build-push-action@v5
+        with:
+          context: ./Dockerfile.prod
+          platforms: linux/amd64, linux/arm64
+          push: true
+          tags: ghcr.io/kwr-informatik-ag/learn/docs
