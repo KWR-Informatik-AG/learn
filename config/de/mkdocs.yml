@@ -1,7 +1,11 @@
 site_name: Lernwebsite (In Arbeit)
 site_author: Johann Friedrich Heuer
-site_description: Dokumentation für die Informatik AG am Kaiser-Wilhelm- und Ratsgymnasium Hannover 
+site_description: Dokumentation für die Informatik AG am Kaiser-Wilhelm- und Ratsgymnasium Hannover.
 site_url: https://kwr-informatik-ag.github.io/learn/
+
+# Directories
+docs_dir: '../../docs/de'
+site_dir: '../../generated/de'
 
 # Repository
 repo_name: GitHub Repository
@@ -12,8 +16,11 @@ repo_url: https://github.com/kwr-informatik-ag/documentation
 
 theme:
   name: material
+  custom_dir: '../../overrides'
+  logo: assets/images/logo-full.png
+  favicon: assets/images/favicon.png
+  language: de
   features:
-
 
     # toc (table of content)
     - toc.follow
@@ -56,21 +63,24 @@ theme:
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
-  favicon: assets/favicon.png
-  logo: assets/images/logo-full.png
 
 extra:
   homepage: https://kwr-informatik-ag.github.io/
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/kwr-informatik-ag/
-  #alternate:
-  #  - name: Deutsch
-  #    link: /de/
-  #    lang: de
-  #  - name: English
-  #    link: /en/
-  #    lang: en
+  
+  alternate:
+
+    # German language
+    - name: Deutsch
+      link: /de/
+      lang: de
+
+    # English language
+    - name: English
+      link: /en/
+      lang: en
 
 plugins:
   - social

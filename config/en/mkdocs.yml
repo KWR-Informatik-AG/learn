@@ -1,0 +1,104 @@
+site_name: Learnwebsite (Work in Progress)
+site_author: Johann Friedrich Heuer
+site_description: Documentation for the Informatik AG at the Kaiser-Wilhelm- and Ratsgymnasium Hannover.
+site_url: https://kwr-informatik-ag.github.io/learn/
+
+# Directories
+docs_dir: '../../docs/en'
+site_dir: '../../generated/en'
+
+# Repository
+repo_name: GitHub Repository
+repo_url: https://github.com/kwr-informatik-ag/documentation
+
+# Copyright
+# copyright: Copyright &copy; 2024 KWR Hannover
+
+theme:
+  name: material
+  custom_dir: '../../overrides'
+  logo: assets/images/logo-full.png
+  favicon: assets/images/favicon.png
+  language: en
+  features:
+
+    # toc (table of content)
+    - toc.follow
+
+    # search
+    - search.suggest
+
+    # content
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+
+    # navigation
+    - navigation.top
+    - navigation.path
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.sections
+
+  palette:
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+
+extra:
+  homepage: https://kwr-informatik-ag.github.io/
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/kwr-informatik-ag/
+  
+  alternate:
+
+    # German language
+    - name: Deutsch
+      link: /de/
+      lang: de
+
+    # English language
+    - name: English
+      link: /en/
+      lang: en
+
+plugins:
+  - social
+  - search
+
+markdown_extensions:
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+nav:
+  - Homepage: index.md
