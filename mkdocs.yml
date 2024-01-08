@@ -13,21 +13,32 @@ repo_url: https://github.com/kwr-informatik-ag/documentation
 theme:
   name: material
   features:
+
+
+    # toc (table of content)
+    - toc.follow
+
+    # search
+    - search.suggest
+
+    # content
     - content.tabs.link
     - content.code.copy
     - content.code.annotate
-    - toc.follow
-    #- toc.integrate
+
+    # navigation
     - navigation.top
-    - navigation.tracking
+    - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
+    - navigation.tracking
     - navigation.sections
-    - search.suggest
+
+
   language: de
   palette:
     - media: "(prefers-color-scheme)"
