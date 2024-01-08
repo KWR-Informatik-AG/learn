@@ -74,12 +74,12 @@ extra:
 
     # German language
     - name: German
-      link: learn/de/
+      link: ../de/
       lang: de
 
     # English language
     - name: English
-      link: learn/en/
+      link: ../en/
       lang: en
 
 plugins:
