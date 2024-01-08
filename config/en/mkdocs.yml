@@ -73,13 +73,13 @@ extra:
   alternate:
 
     # German language
-    - name: Deutsch
-      link: de/
+    - name: German
+      link: learn/de/
       lang: de
 
     # English language
     - name: English
-      link: en/
+      link: learn/en/
       lang: en
 
 plugins:
