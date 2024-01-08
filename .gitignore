@@ -1,2 +1,8 @@
+# User config
+.vscode
+
+# Build directories
 site
+
+# Caches and temporary files
 .cache
