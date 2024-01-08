@@ -33,13 +33,10 @@ theme:
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.instant
-    - navigation.instant.prefetch
     - navigation.instant.progress
     - navigation.tracking
     - navigation.sections
 
-
-  language: de
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -67,6 +64,13 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/kwr-informatik-ag/
+  #alternate:
+  #  - name: Deutsch
+  #    link: /de/
+  #    lang: de
+  #  - name: English
+  #    link: /en/
+  #    lang: en
 
 plugins:
   - social
@@ -95,25 +99,25 @@ nav:
       - "Was ist Git": devops/git/index.md
   
   - Sprachen:
-    - "Start": sprachen/index.md
+    - "Start": languages/index.md
     - HTML:
-      - "Grundlagen": sprachen/html/index.md
+      - "Grundlagen": languages/html/index.md
     - CSS:
-      - "Grundlagen": sprachen/css/index.md
+      - "Grundlagen": languages/css/index.md
     - Javascript:
-      - "Grundlagen": sprachen/javascript/index.md
+      - "Grundlagen": languages/javascript/index.md
     - Typescript:
-      - "Grundlagen": sprachen/typescript/index.md
+      - "Grundlagen": languages/typescript/index.md
     #- Python: # Free-For-All to extend on
-    #  - "Grundlagen": sprachen/python/index.md
+    #  - "Grundlagen": languages/python/index.md
     #- C: # Free-For-All to extend on
-    #  - "Grundlagen": sprachen/javascript/index.md
+    #  - "Grundlagen": languages/javascript/index.md
     #- C#: # Free-For-All to extend on
-    #  - "Grundlagen": sprachen/javascript/index.md
+    #  - "Grundlagen": languages/javascript/index.md
     #- C++: # Free-For-All to extend on
-    #  - "Grundlagen": sprachen/javascript/index.md
+    #  - "Grundlagen": languages/javascript/index.md
     #- Java: # Free-For-All to extend on
-    #  - "Grundlagen": sprachen/java/index.md
+    #  - "Grundlagen": languages/java/index.md
 
 
   - Frontend:
