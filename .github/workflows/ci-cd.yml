@@ -1,4 +1,4 @@
-name: ci-cd
+name: CI-CD
 
 on:
   push:
@@ -12,9 +12,7 @@ permissions:
 jobs:
 
   deploy:
-
     runs-on: ubuntu-latest
-
     steps:
 
       - name: Checkout 🛎️

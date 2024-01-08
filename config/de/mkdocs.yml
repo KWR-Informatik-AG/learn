@@ -43,6 +43,7 @@ theme:
     - navigation.instant.progress
     - navigation.tracking
     - navigation.sections
+    - navigation.indexes
 
   palette:
     - media: "(prefers-color-scheme)"
@@ -111,23 +112,23 @@ nav:
   - Sprachen:
     - "Start": languages/index.md
     - HTML:
-      - "Grundlagen": languages/html/index.md
+      - languages/html/index.md
     - CSS:
-      - "Grundlagen": languages/css/index.md
+      - languages/css/index.md
     - Javascript:
-      - "Grundlagen": languages/javascript/index.md
+      - languages/javascript/index.md
     - Typescript:
-      - "Grundlagen": languages/typescript/index.md
+      - languages/typescript/index.md
     #- Python: # Free-For-All to extend on
-    #  - "Grundlagen": languages/python/index.md
+    #  - languages/python/index.md
     #- C: # Free-For-All to extend on
-    #  - "Grundlagen": languages/javascript/index.md
+    #  - languages/javascript/index.md
     #- C#: # Free-For-All to extend on
-    #  - "Grundlagen": languages/javascript/index.md
+    #  - languages/javascript/index.md
     #- C++: # Free-For-All to extend on
-    #  - "Grundlagen": languages/javascript/index.md
+    #  - languages/javascript/index.md
     #- Java: # Free-For-All to extend on
-    #  - "Grundlagen": languages/java/index.md
+    #  - languages/java/index.md
 
 
   - Frontend:
