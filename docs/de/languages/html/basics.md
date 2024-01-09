@@ -3,6 +3,7 @@
 ### Was sind Tags
 
 HTML ist in ==Tags== aufgebaut. Tags können in zwei Varianten auftauchen:
+
 1. Unäre Tags
 2. Binäre Tags
 
