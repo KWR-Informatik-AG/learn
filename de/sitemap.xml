@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://kwr-informatik-ag.github.io/learn/languages/html/basics/</loc>
+         <lastmod>2024-01-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://kwr-informatik-ag.github.io/learn/languages/javascript/</loc>
          <lastmod>2024-01-09</lastmod>
          <changefreq>daily</changefreq>
