@@ -113,6 +113,7 @@ nav:
     - "Start": languages/index.md
     - HTML:
       - languages/html/index.md
+      - Grundlagen: languages/html/basics.md
     - CSS:
       - languages/css/index.md
     - Javascript:
