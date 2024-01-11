@@ -1,3 +1,7 @@
+###############
+# Build Stage #
+###############
+
 FROM squidfunk/mkdocs-material AS build
 WORKDIR /app
 COPY config ./config
@@ -6,9 +10,21 @@ COPY overrides ./overrides
 RUN mkdocs build -f ./config/de/mkdocs.yml
 RUN mkdocs build -f ./config/en/mkdocs.yml
 
+
+####################
+# Production Stage #
+####################
+
+# Copy build results to nginx
 FROM nginx:alpine
 WORKDIR /usr/share/nginx/html
 RUN rm -rf ./*
-RUN touch /usr/share/nginx/html/index.html
-RUN echo '<!DOCTYPE html><meta charset="utf-8"><title>Redirecting to https://kwr-informatik-ag.github.io/learn/de/</title><meta http-equiv="refresh" content="0; URL=https://kwr-informatik-ag.github.io/learn/de/"><link rel="canonical" href="https://kwr-informatik-ag.github.io/learn/de/">' >> /usr/share/nginx/html/index.html
 COPY --from=build /app/generated .
+
+# Redirect / to german version
+RUN touch /usr/share/nginx/html/index.html
+RUN echo '<!DOCTYPE html>' >> /usr/share/nginx/html/index.html
+RUN echo '<meta charset="utf-8">' >> /usr/share/nginx/html/index.html
+RUN echo '<title>Redirecting to https://kwr-informatik-ag.github.io/learn/de/</title>' >> /usr/share/nginx/html/index.html
+RUN echo '<meta http-equiv="refresh" content="0; URL=https://kwr-informatik-ag.github.io/learn/de/">' >> /usr/share/nginx/html/index.html
+RUN echo '<link rel="canonical" href="https://kwr-informatik-ag.github.io/learn/de/">' >> /usr/share/nginx/html/index.html
