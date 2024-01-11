@@ -43,7 +43,7 @@ jobs:
           echo '<!DOCTYPE html>' >> generated/index.html
           echo '<meta charset="utf-8">' >> generated/index.html
           echo '<title>Redirecting to https://kwr-informatik-ag.github.io/learn/de/</title>' >> generated/index.html
-          echo '<meta http-equiv="refresh" content="0; URL=https://kwr-informatik-ag.github.io/learn/de/">' >> generated/index.html'
+          echo '<meta http-equiv="refresh" content="0; URL=https://kwr-informatik-ag.github.io/learn/de/">' >> generated/index.html
           echo '<link rel="canonical" href="https://kwr-informatik-ag.github.io/learn/de/">' >> generated/index.html
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
