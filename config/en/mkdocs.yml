@@ -1,7 +1,7 @@
 site_name: Learnwebsite (Work in Progress)
 site_author: Johann Friedrich Heuer
 site_description: Documentation for the Informatik AG at the Kaiser-Wilhelm- and Ratsgymnasium Hannover.
-site_url: https://kwr-informatik-ag.github.io/learn/
+site_url: https://kwr-informatik-ag.github.io/learn/en/
 
 # Directories
 docs_dir: '../../docs/en'
