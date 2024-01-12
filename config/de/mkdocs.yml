@@ -70,7 +70,10 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/kwr-informatik-ag/
-  
+  analytics:
+      provider: google
+      property: G-ZMYL9F574V
+
   alternate:
 
     # German language
