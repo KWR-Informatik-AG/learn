@@ -24,7 +24,6 @@ flowchart BT
             DC["App C"]
         end
     end
-    
 
     %% Connections
     A --> B
@@ -32,21 +31,15 @@ flowchart BT
     B --> CB --- DB
     B --> CC --- DC
 
-    
-
     %% Styles
-
-    style A fill:#72ad4c,color:#fff,stroke:none
-
-    style B fill:#949494,color:#fff,stroke:none
-    
-    style CA fill:#4373bf,color:#fff,stroke:none
-    style CB fill:#4373bf,color:#fff,stroke:none
-    style CC fill:#4373bf,color:#fff,stroke:none
-    
-    style DA fill:#00205e,color:#fff,stroke:none
-    style DB fill:#00205e,color:#fff,stroke:none
-    style DC fill:#00205e,color:#fff,stroke:none
+    style A fill:#72ad4c, color:#fff, stroke:none %% Infra
+    style B fill:#949494, color:#fff, stroke:none %% Hyper
+    style CA fill:#4373bf, color:#fff, stroke:none %% VM1
+    style DA fill:#00205e, color:#fff, stroke:none
+    style CB fill:#4373bf, color:#fff, stroke:none %% VM2
+    style DB fill:#00205e, color:#fff, stroke:none
+    style CC fill:#4373bf, color:#fff, stroke:none %% VM3
+    style DC fill:#00205e, color:#fff, stroke:none
 
 ```
 
@@ -72,11 +65,11 @@ flowchart BT
     C --> DC
 
     %% Styles
-    style A fill:#72ad4c,color:#fff,stroke:none
-    style B fill:#5e9bd2,color:#fff,stroke:none
-    style C fill:#4373bf,color:#fff,stroke:none
-    style DA fill:#00205e,color:#fff,stroke:none
-    style DB fill:#00205e,color:#fff,stroke:none
-    style DC fill:#00205e,color:#fff,stroke:none
+    style A fill:#72ad4c, color:#fff, stroke:none
+    style B fill:#5e9bd2, color:#fff, stroke:none
+    style C fill:#4373bf, color:#fff, stroke:none
+    style DA fill:#00205e, color:#fff, stroke:none
+    style DB fill:#00205e, color:#fff, stroke:none
+    style DC fill:#00205e, color:#fff, stroke:none
 
 ```
