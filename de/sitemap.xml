@@ -41,17 +41,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://kwr-informatik-ag.github.io/learn/de/container/podman/</loc>
-         <lastmod>2024-01-28</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/devops/</loc>
          <lastmod>2024-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/devops/git/</loc>
+         <lastmod>2024-01-28</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://kwr-informatik-ag.github.io/learn/de/devops/git/workflows/git-flow/</loc>
          <lastmod>2024-01-28</lastmod>
          <changefreq>daily</changefreq>
     </url>
