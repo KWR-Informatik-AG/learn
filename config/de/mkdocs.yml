@@ -37,7 +37,7 @@ theme:
     - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
-    - navigation.expand
+    # - navigation.expand
     - navigation.instant
     - navigation.instant.progress
     - navigation.tracking
@@ -45,24 +45,9 @@ theme:
     - navigation.indexes
 
   palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/link
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: black
-      accent: indigo
-      toggle:
-        icon: material/toggle-switch-off
-        name: Switch to system preference
+    scheme: slate
+    primary: black
+    accent: indigo
 
 extra:
   homepage: https://kwr-informatik-ag.github.io/
@@ -112,7 +97,9 @@ nav:
   - Devops:
       - "Start": devops/index.md
       - Git:
-          - "Was ist Git": devops/git/index.md
+        - "Was ist Git": devops/git/index.md
+        - Workflows:
+          - "Git Flow": devops/git/workflows/git-flow.md
 
   - Sprachen:
       - "Start": languages/index.md
@@ -149,18 +136,18 @@ nav:
               - "Grundlagen": frontend/svelte/getting-started/introduction.md
   - Container:
       - container/index.md
-      #- Docker:
-      #  - container/docker/index.md
-      #- Podman:
-      #  - container/podman/index.md
+      - Docker:
+        - container/docker/index.md
 
-      #- Kubernetes:
-      #    - container/kubernetes/index.md
-      #    - Helm:
-      #        - container/kubernetes/helm/index.md
-      #    - Kustomize:
-      #        - container/kubernetes/kustomize/index.md
-      #    - ArgoCD:
-      #        - container/kubernetes/argocd/index.md
-      #    - Kind:
-      #        - container/kubernetes/kind/index.md
+      - Kubernetes:
+          - container/kubernetes/index.md
+
+          - Tools:
+            - Helm:
+                - container/kubernetes/helm/index.md
+            - Kustomize:
+                - container/kubernetes/kustomize/index.md
+            - ArgoCD:
+                - container/kubernetes/argocd/index.md
+            - Kind:
+                - container/kubernetes/kind/index.md

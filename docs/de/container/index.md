@@ -2,28 +2,26 @@
 
 ## Container vs Virtuelle Maschinen
 
-### Mit virtuellen Maschinen
-
 ```mermaid
 flowchart BT
 
     %% Nodes and Contents
-    subgraph "VMs"
+    subgraph "Virtuelle Maschinen"
     direction BT
-        A[Infrastruktur]
-        B[Hypervisor]
+        A["Infrastruktur"]
+        B["Hypervisor"]
 
         subgraph "Virtuelle Maschine"
-            CA[Gast OS]
-            DA[App A]
+            CA["Gast OS"]
+            DA["App A"]
         end
         subgraph "Virtuelle Maschine"
-            CB[Gast OS]
-            DB[App B]
+            CB["Gast OS"]
+            DB["App B"]
         end
         subgraph "Virtuelle Maschine"
-            CC[Gast OS]
-            DC[App C]
+            CC["Gast OS"]
+            DC["App C"]
         end
     end
     
@@ -52,20 +50,18 @@ flowchart BT
 
 ```
 
-### Mit Containern
-
 ```mermaid
 flowchart BT
 
     %% Nodes and Contents
     subgraph "Container"
     direction BT
-        A[Infrastruktur]
-        B[Host OS]
-        C[Docker]
-        DA[App A]
-        DB[App B]
-        DC[App C]
+        A["Infrastruktur"]
+        B["Host OS"]
+        C["Containerd (Engine)"]
+        DA["App A"]
+        DB["App B"]
+        DC["App C"]
     end
 
     %% Connections
