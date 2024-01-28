@@ -4,8 +4,8 @@ site_description: Dokumentation für die Informatik AG am Kaiser-Wilhelm- und Ra
 site_url: https://kwr-informatik-ag.github.io/learn/de/
 
 # Directories
-docs_dir: '../../docs/de'
-site_dir: '../../generated/de'
+docs_dir: "../../docs/de"
+site_dir: "../../generated/de"
 
 # Repository
 repo_name: GitHub Repository
@@ -16,12 +16,11 @@ repo_url: https://github.com/kwr-informatik-ag/documentation
 
 theme:
   name: material
-  custom_dir: '../../overrides'
+  custom_dir: "../../overrides"
   logo: assets/images/logo-full.png
   favicon: assets/images/favicon.png
   language: de
   features:
-
     # toc (table of content)
     - toc.follow
 
@@ -71,11 +70,10 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/kwr-informatik-ag/
   analytics:
-      provider: google
-      property: G-ZMYL9F574V
+    provider: google
+    property: G-ZMYL9F574V
 
   alternate:
-
     # German language
     - name: Deutsch
       link: ../de/
@@ -102,27 +100,31 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 nav:
   - Startseite: index.md
 
   - Devops:
-    - "Start": devops/index.md
-    - Git:
-      - "Was ist Git": devops/git/index.md
-  
+      - "Start": devops/index.md
+      - Git:
+          - "Was ist Git": devops/git/index.md
+
   - Sprachen:
-    - "Start": languages/index.md
-    - HTML:
-      - languages/html/index.md
-      - Grundlagen: languages/html/basics.md
-    - CSS:
-      - languages/css/index.md
-    - Javascript:
-      - languages/javascript/index.md
-    - Typescript:
-      - languages/typescript/index.md
+      - "Start": languages/index.md
+      - HTML:
+          - languages/html/index.md
+          - Grundlagen: languages/html/basics.md
+      - CSS:
+          - languages/css/index.md
+      - Javascript:
+          - languages/javascript/index.md
+      - Typescript:
+          - languages/typescript/index.md
     #- Python: # Free-For-All to extend on
     #  - languages/python/index.md
     #- C: # Free-For-All to extend on
@@ -134,15 +136,31 @@ nav:
     #- Java: # Free-For-All to extend on
     #  - languages/java/index.md
 
-
   - Frontend:
-    - "Start": frontend/index.md
-    - NodeJS:
-      - Erste Schritte:
-        - "Schnellanleitung": frontend/nodejs/getting-started/quick-guide.md
-        - "Installation": frontend/nodejs/getting-started/installation.md
-      - Tutorial:
-        - "Grundlagen": frontend/nodejs/tutorial/grundlagen.md
-    - Svelte:
-      - Erste Schritte:
-        - "Grundlagen": frontend/svelte/getting-started/introduction.md
+      - "Start": frontend/index.md
+      - NodeJS:
+          - Erste Schritte:
+              - "Schnellanleitung": frontend/nodejs/getting-started/quick-guide.md
+              - "Installation": frontend/nodejs/getting-started/installation.md
+          - Tutorial:
+              - "Grundlagen": frontend/nodejs/tutorial/grundlagen.md
+      - Svelte:
+          - Erste Schritte:
+              - "Grundlagen": frontend/svelte/getting-started/introduction.md
+  - Container:
+      - container/index.md
+      #- Docker:
+      #  - container/docker/index.md
+      #- Podman:
+      #  - container/podman/index.md
+
+      #- Kubernetes:
+      #    - container/kubernetes/index.md
+      #    - Helm:
+      #        - container/kubernetes/helm/index.md
+      #    - Kustomize:
+      #        - container/kubernetes/kustomize/index.md
+      #    - ArgoCD:
+      #        - container/kubernetes/argocd/index.md
+      #    - Kind:
+      #        - container/kubernetes/kind/index.md
