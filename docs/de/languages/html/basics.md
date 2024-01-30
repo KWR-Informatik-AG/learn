@@ -1,6 +1,6 @@
 # Grundlagen
 
-### Was sind Tags
+## Was sind Tags
 
 HTML ist in ==Tags== aufgebaut. Tags können in zwei Varianten auftauchen:
 
