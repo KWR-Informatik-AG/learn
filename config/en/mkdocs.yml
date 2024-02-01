@@ -20,6 +20,22 @@ theme:
   logo: assets/images/logo-full.png
   favicon: assets/images/favicon.png
   language: en
+
+  icon:
+    admonition:
+      note: fontawesome/solid/note-sticky
+      abstract: fontawesome/solid/book
+      info: fontawesome/solid/circle-info
+      tip: fontawesome/solid/bullhorn
+      success: fontawesome/solid/check
+      question: fontawesome/solid/circle-question
+      warning: fontawesome/solid/triangle-exclamation
+      failure: fontawesome/solid/bomb
+      danger: fontawesome/solid/skull
+      bug: fontawesome/solid/robot
+      example: fontawesome/solid/flask
+      quote: fontawesome/solid/quote-left
+
   features:
 
     # toc (table of content)
@@ -89,6 +105,8 @@ plugins:
   - search
 
 markdown_extensions:
+  - admonition
+  - pymdownx.details
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
