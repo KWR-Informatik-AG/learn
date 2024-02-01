@@ -2,112 +2,112 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/container/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/container/docker/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/container/kubernetes/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/container/kubernetes/argocd/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/container/kubernetes/helm/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/container/kubernetes/kind/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/container/kubernetes/kustomize/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/devops/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/devops/git/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/devops/git/workflows/git-flow/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/frontend/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/frontend/nodejs/getting-started/installation/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/frontend/nodejs/getting-started/quick-guide/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/frontend/nodejs/tutorial/grundlagen/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/frontend/svelte/getting-started/introduction/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/languages/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/languages/css/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/languages/html/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/languages/html/basics/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/languages/javascript/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://kwr-informatik-ag.github.io/learn/de/languages/typescript/</loc>
-         <lastmod>2024-01-29</lastmod>
+         <lastmod>2024-02-01</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
