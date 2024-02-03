@@ -118,20 +118,26 @@ nav:
         - "Was ist Git": devops/git/index.md
         - Workflows:
           - "Git Flow": devops/git/workflows/git-flow.md
+      - Ansible:
+        - devops/ansible/index.md
+        # - Installation:
+        #   - devops/ansible/installation/index.md
 
-  - Sprachen:
+  - Sprachen: # Free-For-All to extend on 
       - "Start": languages/index.md
       - HTML:
-          - languages/html/index.md
-          - Grundlagen: languages/html/basics.md
+        - languages/html/index.md
+        - Grundlagen: languages/html/basics.md
       - CSS:
-          - languages/css/index.md
+        - languages/css/index.md
       - Javascript:
-          - languages/javascript/index.md
-      - Typescript:
+        - languages/javascript/index.md
+        - Typescript:
           - languages/typescript/index.md
-    #- Python: # Free-For-All to extend on
-    #  - languages/python/index.md
+      - Python:
+        - languages/python/index.md
+        - Pipx:
+          - languages/python/pipx/index.md
     #- C: # Free-For-All to extend on
     #  - languages/javascript/index.md
     #- C#: # Free-For-All to extend on
