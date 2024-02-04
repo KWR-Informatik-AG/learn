@@ -10,7 +10,7 @@ Hilfe: [https://git-scm.com/book/de/v2/Erste-Schritte-Git-installieren](https://
 
 <!-- Help: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) -->
 
-Mit dem Befehl ```git --version``` kann das überprüft werden geprüft werden.
+Mit dem Befehl ```git --version``` kann auf eine bestehende Installation geprüft werden.
 
 === "Linux"
 
