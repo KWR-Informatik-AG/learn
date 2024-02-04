@@ -693,6 +693,8 @@
       
         
       
+        
+      
     
     
     
@@ -1116,6 +1118,65 @@
     </li>
   
 
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+      
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../languages/yaml/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    YAML
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_6">
+            <span class="md-nav__icon md-icon"></span>
+            YAML
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
               
             
           </ul>
@@ -2037,6 +2098,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#was-ist-ansible" class="md-nav__link">
+    <span class="md-ellipsis">
+      Was ist Ansible
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#installation-und-updates" class="md-nav__link">
     <span class="md-ellipsis">
       Installation und Updates
@@ -2079,10 +2149,23 @@
 
 
 <h1 id="ansible">Ansible</h1>
-<div class="admonition info">
-<p class="admonition-title">Was ist Ansible</p>
-<p>Ansible ist ein Automatisierungswerkzeug für Admins, die ihre Aufgaben gerne durch Automatisierung erleichtern würden.</p>
-</div>
+<h2 id="was-ist-ansible">Was ist Ansible</h2>
+<p>Ansible ist ein Open Source Tool, das deine IT-Infrastruktur in einfachem deklarativem Code beschreiben kann.
+Es wurde 2012 von Michael Dehaan entwickelt und 2015 von RedHat&#8482; <!--Trademark--> erworben.
+Es ist heutzutage neben <a href="https://www.terraform.io">Terraform</a> und <a href="https://www.puppet.com">Puppet</a> eines der meist benutzten Management Tools.</p>
+<p>Es verwendet deklarativen Push-basierten YAML Code um DevOps Teams zu ermöglichen, Server zu automatisieren.</p>
+<pre class="mermaid"><code>
+flowchart TB
+
+    A["Ansible"]
+    BA["Datenbank"]
+    BB["API/Backend"]
+    BC["Web Server"]
+
+    A --&gt; BA
+    A --&gt; BB
+    A --&gt; BC
+</code></pre>
 <h2 id="installation-und-updates">Installation und Updates</h2>
 <p>Ansible ist in Python geschrieben. Die Installation findet dementsprechend über <a href="../../languages/python/pipx/"><code>pipx</code></a> statt.</p>
 <h3 id="installiere-ansible">Installiere Ansible</h3>
