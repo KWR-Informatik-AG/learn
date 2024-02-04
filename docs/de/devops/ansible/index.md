@@ -9,7 +9,7 @@ Ansible ist in Python geschrieben. Die Installation findet dementsprechend über
 
 ### Installiere Ansible
 
-=== "Komplette installation (Empfohlen) "
+=== "Komplette installation (Empfohlen)"
 
     Volles Ansible Paket:
 
