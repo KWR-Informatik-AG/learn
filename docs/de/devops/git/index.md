@@ -10,10 +10,13 @@ Hilfe: [https://git-scm.com/book/de/v2/Erste-Schritte-Git-installieren](https://
 
 <!-- Help: [https://git-scm.com/book/en/v2/Getting-Started-Installing-Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) -->
 
+Mit dem Befehl ```git --version``` kann das überprüft werden geprüft werden.
+
 === "Linux"
 
-    Unter Linux ist Git in der Regel vorinstalliert
-    Mit dem Befehl ```git --version``` kann das überprüft werden geprüft werden.
+    Unter Linux ist Git in der Regel vorinstalliert.
+
+    Sollte das nicht der fall sein, kann Git in der Regel über einen Paketmanager installiert werden:
 
     === "apt"
 
@@ -27,6 +30,28 @@ Hilfe: [https://git-scm.com/book/de/v2/Erste-Schritte-Git-installieren](https://
         sudo dnf install git-all
         ```
 
+    === "brew"
+
+        ```bash
+        brew install git
+        ```
+
+=== "Mac"
+
+    === "Homebrew"
+
+        ```bash
+        brew install git
+        ```
+    
+    === "MacPorts"
+
+        ```bash
+        sudo port install git
+        ```
+
 === "Windows"
 
-    Der Installationsmanager findet sich unter [https://git-scm.com/downloads](https://git-scm.com/downloads).
+    Der Installationsmanager mit Anleitung findet sich unter [https://git-scm.com/downloads](https://git-scm.com/downloads).
+
+    Unter Windows ist es leichter, mit Linux über das WSL zu entwickeln.
