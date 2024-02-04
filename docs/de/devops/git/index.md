@@ -2,7 +2,7 @@
 
 Wenn man mit einer kleinen Gruppe in einem Projekt zusammenarbeitet, funktioniert das möglicherweise ganz in Ordnung. Doch wie soll es weiter gehen, wenn das Projekt wächst und noch mehr Leute mitarbeiten müssen? Hierkommt Git ins Spiel
 
-Git ist ein **DevOps Werkzeug**, welches für die **Quell Code Verwaltung** benutzt wird. Es bietet Funktionen zur Versionalisierung und Zusammenarbeit in großen Gruppen. Damit ermöglicht es schnellere iteration der Software und unterstützt somit das [GitOps](../index.md) Konzept.
+Git ist ein **DevOps Werkzeug**, welches für die **Quell Code Verwaltung** benutzt wird. Es bietet Funktionen zur Versionalisierung und Zusammenarbeit in großen Gruppen. Damit ermöglicht es schnellere iteration der Software und unterstützt somit das [DevOps](../index.md) Konzept.
 
 ## Installation
 
