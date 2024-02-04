@@ -1,11 +1,12 @@
-# Git Flow
+# Git Workflows
+
+!!! info
+    Für einzelne Entwickler
 
 ```mermaid
 %%{init: {
-
 'logLevel': 'debug',
 'theme': 'default',
-
 'themeVariables': {
     'git0': '#203f65',
     'git1': '#284a73',
@@ -21,65 +22,51 @@
 } } }%%
 
 gitGraph TB:
-    commit id: "initial commit"
-    branch develop order: 3
-    commit id: "develop"
-    checkout develop
+    commit id: "Initial commit"
+    commit id: "Feature"
+    commit id: "Bugfix"
 
-    branch feature/f1 order: 4 %% Create f1 Branch
-    checkout feature/f1
-    commit
-    commit
-    checkout develop %% Create f2 Branch
-    branch feature/f2 order: 5
-    checkout feature/f2
-    commit
-    checkout feature/f1
-    commit
-    checkout feature/f2
-    commit
-    commit
-    checkout develop %% Merge f2 into Develop
-    merge feature/f2
+```
 
-    checkout feature/f1 %% Merge latest features into f1 branch
-    merge develop
-    commit id: "Merge dev"
+!!! info
+    Für 2-10 Entwlicker
 
-    branch release/v0.1.0 order: 2 %% Create release/v0.1.0 branch
-    checkout release/v0.1.0
-    merge develop tag:"v0.1.0"
-    commit id: "Bugfix 1"
-    checkout develop
-    merge release/v0.1.0
-    checkout feature/f1
-    merge develop
+```mermaid
+%%{init: {
+'logLevel': 'debug',
+'theme': 'default',
+'themeVariables': {
+    'git0': '#203f65',
+    'git1': '#284a73',
+    'git2': '#305581',
+    'git3': '#396190',
+    'git4': '#416c9f',
+    'git5': '#4979ae',
+    'git6': '#5185bd',
+    'git7': '#5a91cc'
+},
+'gitGraph': {
+    'showCommitLabel': true
+} } }%%
 
-    checkout release/v0.1.0
-    commit id: "Bugfix 2"
+gitGraph TB:
+    commit id: "Initial commit"
+
+    branch feature-a
+    checkout feature-a
+    commit id: "Implement A"
+    commit id: "Bugfix A"
     checkout main
-    merge release/v0.1.0 tag: "v0.1.0"
-    checkout develop
-    merge release/v0.1.0
-    checkout feature/f1
-    merge develop
+    merge feature-a
+    commit id: "Merge Feature A"
 
+    branch feature-b
+    checkout feature-b
+    commit id: "Implement B"
+    commit id: "Bugfix B"
     checkout main
-    branch hotfix/hf1 order: 1
-    checkout hotfix/hf1
-    commit
-    commit
-    checkout main
-    merge hotfix/hf1 tag: "v0.1.1"
-
-    checkout develop
-    merge main
-    checkout feature/f1
-    merge develop
-    checkout develop
-    merge feature/f1
-
-    
+    merge feature-b
+    commit id: "Merge Feature B"
 
 ```
 

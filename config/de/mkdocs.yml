@@ -118,8 +118,7 @@ nav:
       - "Start": devops/index.md
       - Git:
         - "Was ist Git": devops/git/index.md
-        - Workflows:
-          - "Git Flow": devops/git/workflows/git-flow.md
+        - "Workflows": devops/git/workflows.md
       - Ansible:
         - devops/ansible/index.md
         # - Installation:
