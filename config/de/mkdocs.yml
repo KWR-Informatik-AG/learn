@@ -139,6 +139,8 @@ nav:
         - languages/python/index.md
         - Pipx:
           - languages/python/pipx/index.md
+      - YAML:
+        - languages/yaml/index.md
     #- C: # Free-For-All to extend on
     #  - languages/javascript/index.md
     #- C#: # Free-For-All to extend on
