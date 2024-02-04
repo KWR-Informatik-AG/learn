@@ -4,10 +4,12 @@ Pipx ist ein Paketmanager zum installieren und ausführen von Endnutzer Anwendun
 
 ## Installation
 
-### Linux
+=== "Linux"
 
-#### Ubuntu 23.04 oder später
+    === "Ubuntu"
 
-```bash
-sudo apt install pipx
-```
+        23.04 oder später
+
+        ```bash
+        sudo apt install pipx
+        ```
